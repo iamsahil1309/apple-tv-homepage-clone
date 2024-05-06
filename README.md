@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# Apple TV+ Page Recreation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a recreation of the Apple TV+ landing page using React for the frontend, Tailwind CSS for styling, and Framer Motion for animations.
 
-Currently, two official plugins are available:
+## Motivation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was created to demonstrate the capabilities of React, Tailwind CSS, and Framer Motion by recreating a complex web page layout and animations. It serves as a practice exercise for frontend development skills.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for creating custom designs quickly.
+- [Framer Motion](https://www.framer.com/motion/): A library for creating animations and gestures in React applications.
 
-- Configure the top-level `parserOptions` property like this:
+## Reference
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+The original Apple TV+ page that this project aims to recreate can be found [here](https://www.apple.com/apple-tv-plus/).
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## How to Use
+
+1. Clone this repository to your local machine.
+2. Open the project directory in your code editor.
+3. Install dependencies using `npm install` or `yarn install`.
+4. Run the development server using `npm start` or `yarn start`.
+5. Access the project in your web browser at `http://localhost:3000` (or the specified port).
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
